@@ -1,0 +1,12 @@
+# Gemini CLI custom command — invoked via /story-to-prompt
+# Generated from skills/story-to-prompt/SKILL.md. The SKILL.md body is referenced, never copied.
+description = "Use when turning a backlog story into an implementation-ready prompt for a coding agent (Cursor, Claude Code, Codex CLI, or Gemini CLI), with context, invariants, tasks, gates, and a file allowlist."
+
+prompt = """
+Follow the skill instructions below, then apply them to the user request.
+
+@{skills/story-to-prompt/SKILL.md}
+
+User request:
+{{args}}
+"""

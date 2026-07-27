@@ -1,0 +1,11 @@
+# Cursor reads skills/change-request-impact/SKILL.md natively (Agent Skills open standard).
+# Recommended tuned frontmatter — additive `metadata` only, no body change.
+# Paste this block (including the --- fences) at the top of the skill's SKILL.md.
+---
+name: change-request-impact
+description: "Use when a scope change arrives mid-project and you need to classify it, size it, run an absorbability test, and produce both an internal record and a client-facing change-request email."
+metadata:
+  author: newecom-ai
+  version: "1.0"
+  homepage: https://factory.newecom.ai
+---

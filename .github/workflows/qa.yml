@@ -1,0 +1,30 @@
+name: QA
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  qa:
+    name: Skill bundle release gate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dev dependencies (markdownlint)
+        run: npm install --no-audit --no-fund
+
+      - name: Run release gate (npm run qa)
+        run: npm run qa

@@ -1,0 +1,11 @@
+# Cursor reads skills/wireframe-to-backlog/SKILL.md natively (Agent Skills open standard).
+# Recommended tuned frontmatter — additive `metadata` only, no body change.
+# Paste this block (including the --- fences) at the top of the skill's SKILL.md.
+---
+name: wireframe-to-backlog
+description: "Use when converting wireframes, mockups, or a prototype into a development backlog with epics, stories, hour estimates, and sprint assignments, applying a 4x factor to infrastructure stories."
+metadata:
+  author: newecom-ai
+  version: "1.0"
+  homepage: https://factory.newecom.ai
+---

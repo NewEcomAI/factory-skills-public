@@ -1,0 +1,11 @@
+# Cursor reads skills/story-to-prompt/SKILL.md natively (Agent Skills open standard).
+# Recommended tuned frontmatter — additive `metadata` only, no body change.
+# Paste this block (including the --- fences) at the top of the skill's SKILL.md.
+---
+name: story-to-prompt
+description: "Use when turning a backlog story into an implementation-ready prompt for a coding agent (Cursor, Claude Code, Codex CLI, or Gemini CLI), with context, invariants, tasks, gates, and a file allowlist."
+metadata:
+  author: newecom-ai
+  version: "1.0"
+  homepage: https://factory.newecom.ai
+---

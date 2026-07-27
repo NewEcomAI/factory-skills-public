@@ -1,0 +1,12 @@
+# Gemini CLI custom command — invoked via /brand-spec-generator
+# Generated from skills/brand-spec-generator/SKILL.md. The SKILL.md body is referenced, never copied.
+description = "Use when turning a short brand brief into a full WCAG 2.1 AA HTML design system spec with color tokens, type scale, and a cursorrules block."
+
+prompt = """
+Follow the skill instructions below, then apply them to the user request.
+
+@{skills/brand-spec-generator/SKILL.md}
+
+User request:
+{{args}}
+"""

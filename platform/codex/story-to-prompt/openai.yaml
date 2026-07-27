@@ -1,0 +1,8 @@
+# Codex CLI UI metadata — deploy to skills/story-to-prompt/agents/openai.yaml
+# Generated from skills/story-to-prompt/SKILL.md. Re-run scripts/gen-platform-metadata.mjs; do not hand-edit.
+interface:
+  display_name: "Story To Prompt"
+  short_description: "Use when turning a backlog story into an implementation-ready prompt for a coding agent (Cursor, Claude Code, Codex CLI, or Gemini CLI), with context, invariants, tasks, gates, and a file allowlist."
+  default_prompt: "Run the story-to-prompt skill on my current context."
+policy:
+  allow_implicit_invocation: true

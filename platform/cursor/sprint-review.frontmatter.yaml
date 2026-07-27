@@ -1,0 +1,11 @@
+# Cursor reads skills/sprint-review/SKILL.md natively (Agent Skills open standard).
+# Recommended tuned frontmatter — additive `metadata` only, no body change.
+# Paste this block (including the --- fences) at the top of the skill's SKILL.md.
+---
+name: sprint-review
+description: "Use when compiling sprint metrics and a handoff doc into a 10-slide sprint review PPTX."
+metadata:
+  author: newecom-ai
+  version: "3.0"
+  homepage: https://factory.newecom.ai
+---

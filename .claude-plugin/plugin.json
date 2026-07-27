@@ -1,0 +1,15 @@
+{
+  "name": "factory",
+  "version": "1.0.0",
+  "author": "newecom-ai",
+  "description": "Calibrated AI-assisted delivery skills: wireframe-to-backlog, change-request-impact, brand-spec-generator, sprint-review, story-to-prompt.",
+  "license": "MIT",
+  "homepage": "https://factory.newecom.ai",
+  "skills": [
+    "skills/wireframe-to-backlog",
+    "skills/change-request-impact",
+    "skills/brand-spec-generator",
+    "skills/sprint-review",
+    "skills/story-to-prompt"
+  ]
+}

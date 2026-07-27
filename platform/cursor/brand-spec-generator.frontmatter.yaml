@@ -1,0 +1,11 @@
+# Cursor reads skills/brand-spec-generator/SKILL.md natively (Agent Skills open standard).
+# Recommended tuned frontmatter — additive `metadata` only, no body change.
+# Paste this block (including the --- fences) at the top of the skill's SKILL.md.
+---
+name: brand-spec-generator
+description: "Use when turning a short brand brief into a full WCAG 2.1 AA HTML design system spec with color tokens, type scale, and a cursorrules block."
+metadata:
+  author: newecom-ai
+  version: "1.0"
+  homepage: https://factory.newecom.ai
+---

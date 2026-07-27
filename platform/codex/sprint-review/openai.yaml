@@ -1,0 +1,8 @@
+# Codex CLI UI metadata — deploy to skills/sprint-review/agents/openai.yaml
+# Generated from skills/sprint-review/SKILL.md. Re-run scripts/gen-platform-metadata.mjs; do not hand-edit.
+interface:
+  display_name: "Sprint Review"
+  short_description: "Use when compiling sprint metrics and a handoff doc into a 10-slide sprint review PPTX."
+  default_prompt: "Run the sprint-review skill on my current context."
+policy:
+  allow_implicit_invocation: true

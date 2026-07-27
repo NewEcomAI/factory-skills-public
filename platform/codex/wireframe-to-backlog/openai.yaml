@@ -1,0 +1,8 @@
+# Codex CLI UI metadata — deploy to skills/wireframe-to-backlog/agents/openai.yaml
+# Generated from skills/wireframe-to-backlog/SKILL.md. Re-run scripts/gen-platform-metadata.mjs; do not hand-edit.
+interface:
+  display_name: "Wireframe To Backlog"
+  short_description: "Use when converting wireframes, mockups, or a prototype into a development backlog with epics, stories, hour estimates, and sprint assignments, applying a 4x factor to infrastructure stories."
+  default_prompt: "Run the wireframe-to-backlog skill on my current context."
+policy:
+  allow_implicit_invocation: true

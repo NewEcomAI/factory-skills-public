@@ -1,0 +1,8 @@
+# Codex CLI UI metadata — deploy to skills/change-request-impact/agents/openai.yaml
+# Generated from skills/change-request-impact/SKILL.md. Re-run scripts/gen-platform-metadata.mjs; do not hand-edit.
+interface:
+  display_name: "Change Request Impact"
+  short_description: "Use when a scope change arrives mid-project and you need to classify it, size it, run an absorbability test, and produce both an internal record and a client-facing change-request email."
+  default_prompt: "Run the change-request-impact skill on my current context."
+policy:
+  allow_implicit_invocation: true

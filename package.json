@@ -1,0 +1,16 @@
+{
+  "name": "factory-skills",
+  "version": "1.0.0",
+  "description": "NewEcom.AI Factory \u2014 free launch skills for Claude Code, Cursor, Codex CLI, and Gemini CLI.",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "validate:frontmatter": "node scripts/validate-frontmatter.mjs",
+    "validate:plugin": "node -e \"const fs=require('fs');const m=JSON.parse(fs.readFileSync('.claude-plugin/plugin.json','utf8'));if(!m.name||!m.version||!m.author||!m.license)throw new Error('plugin.json missing required field (name/version/author/license)');if(!Array.isArray(m.skills)||m.skills.length!==5)throw new Error('plugin.json must list exactly 5 skills');for(const s of m.skills){if(!fs.existsSync(s))throw new Error('missing skill dir: '+s)}console.log('plugin.json OK:',m.name,m.version,'-',m.skills.length,'skills')\"",
+    "qa": "node scripts/qa.mjs"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.14.0"
+  }
+}

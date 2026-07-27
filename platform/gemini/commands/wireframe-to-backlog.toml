@@ -1,0 +1,12 @@
+# Gemini CLI custom command — invoked via /wireframe-to-backlog
+# Generated from skills/wireframe-to-backlog/SKILL.md. The SKILL.md body is referenced, never copied.
+description = "Use when converting wireframes, mockups, or a prototype into a development backlog with epics, stories, hour estimates, and sprint assignments, applying a 4x factor to infrastructure stories."
+
+prompt = """
+Follow the skill instructions below, then apply them to the user request.
+
+@{skills/wireframe-to-backlog/SKILL.md}
+
+User request:
+{{args}}
+"""

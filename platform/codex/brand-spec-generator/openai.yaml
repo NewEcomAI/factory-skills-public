@@ -1,0 +1,8 @@
+# Codex CLI UI metadata — deploy to skills/brand-spec-generator/agents/openai.yaml
+# Generated from skills/brand-spec-generator/SKILL.md. Re-run scripts/gen-platform-metadata.mjs; do not hand-edit.
+interface:
+  display_name: "Brand Spec Generator"
+  short_description: "Use when turning a short brand brief into a full WCAG 2.1 AA HTML design system spec with color tokens, type scale, and a cursorrules block."
+  default_prompt: "Run the brand-spec-generator skill on my current context."
+policy:
+  allow_implicit_invocation: true

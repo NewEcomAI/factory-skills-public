@@ -1,0 +1,18 @@
+{
+  "name": "factory-skills",
+  "owner": {
+    "name": "NewEcom.AI",
+    "url": "https://factory.newecom.ai"
+  },
+  "plugins": [
+    {
+      "name": "factory",
+      "source": "./",
+      "description": "Calibrated AI-assisted delivery skills: wireframe-to-backlog, change-request-impact, brand-spec-generator, sprint-review, story-to-prompt.",
+      "version": "1.0.0",
+      "author": "newecom-ai",
+      "license": "MIT",
+      "homepage": "https://factory.newecom.ai"
+    }
+  ]
+}

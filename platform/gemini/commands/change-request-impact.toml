@@ -1,0 +1,12 @@
+# Gemini CLI custom command — invoked via /change-request-impact
+# Generated from skills/change-request-impact/SKILL.md. The SKILL.md body is referenced, never copied.
+description = "Use when a scope change arrives mid-project and you need to classify it, size it, run an absorbability test, and produce both an internal record and a client-facing change-request email."
+
+prompt = """
+Follow the skill instructions below, then apply them to the user request.
+
+@{skills/change-request-impact/SKILL.md}
+
+User request:
+{{args}}
+"""

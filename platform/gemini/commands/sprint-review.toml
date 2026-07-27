@@ -1,0 +1,12 @@
+# Gemini CLI custom command — invoked via /sprint-review
+# Generated from skills/sprint-review/SKILL.md. The SKILL.md body is referenced, never copied.
+description = "Use when compiling sprint metrics and a handoff doc into a 10-slide sprint review PPTX."
+
+prompt = """
+Follow the skill instructions below, then apply them to the user request.
+
+@{skills/sprint-review/SKILL.md}
+
+User request:
+{{args}}
+"""
