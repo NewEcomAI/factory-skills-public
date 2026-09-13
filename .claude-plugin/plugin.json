@@ -8,10 +8,10 @@
   "license": "MIT",
   "homepage": "https://factory.newecom.ai",
   "skills": [
-    "skills/wireframe-to-backlog",
-    "skills/change-request-impact",
-    "skills/brand-spec-generator",
-    "skills/sprint-review",
-    "skills/story-to-prompt"
+    "./skills/wireframe-to-backlog",
+    "./skills/change-request-impact",
+    "./skills/brand-spec-generator",
+    "./skills/sprint-review",
+    "./skills/story-to-prompt"
   ]
 }
