@@ -24,7 +24,7 @@ const outRoot = join(repoRoot, "platform");
 const GENERATED = ["cursor", "codex", "gemini"]; // hand-written files (README.md) are left untouched
 const EXT_NAME = "factory-skills";
 const EXT_VERSION = "1.0.0";
-const AUTHOR = "newecom-ai";
+const AUTHOR = "newecom.aI";
 const HOMEPAGE = "https://factory.newecom.ai";
 
 const check = process.argv.includes("--check");

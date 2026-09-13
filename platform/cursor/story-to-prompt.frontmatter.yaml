@@ -5,7 +5,7 @@
 name: story-to-prompt
 description: "Use when turning a backlog story into an implementation-ready prompt for a coding agent (Cursor, Claude Code, Codex CLI, or Gemini CLI), with context, invariants, tasks, gates, and a file allowlist."
 metadata:
-  author: newecom-ai
+  author: newecom.aI
   version: "1.0"
   homepage: https://factory.newecom.ai
 ---

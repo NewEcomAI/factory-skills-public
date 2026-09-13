@@ -5,7 +5,7 @@
 name: wireframe-to-backlog
 description: "Use when converting wireframes, mockups, or a prototype into a development backlog with epics, stories, hour estimates, and sprint assignments, applying a 4x factor to infrastructure stories."
 metadata:
-  author: newecom-ai
+  author: newecom.aI
   version: "1.0"
   homepage: https://factory.newecom.ai
 ---
