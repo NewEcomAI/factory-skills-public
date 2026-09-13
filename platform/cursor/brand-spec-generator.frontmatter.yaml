@@ -5,7 +5,7 @@
 name: brand-spec-generator
 description: "Use when turning a short brand brief into a full WCAG 2.1 AA HTML design system spec with color tokens, type scale, and a cursorrules block."
 metadata:
-  author: newecom-ai
+  author: newecom.aI
   version: "1.0"
   homepage: https://factory.newecom.ai
 ---

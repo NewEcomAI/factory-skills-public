@@ -5,7 +5,7 @@
 name: sprint-review
 description: "Use when compiling sprint metrics and a handoff doc into a 10-slide sprint review PPTX."
 metadata:
-  author: newecom-ai
+  author: newecom.aI
   version: "3.0"
   homepage: https://factory.newecom.ai
 ---
